@@ -1,0 +1,102 @@
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+ACCOUNTS=[
+  "GAFPCAD6N5KQSCGNXAGFKR7FKFYE72M62U27BJ2LE2VS35PO3YWE2USA",
+  "GCMZDGZCVJCLNDNSK3CJFC3DJMWPMOR47HYABSGUHRCVOPALZMWZSGOD",
+  "GCS3EOS6NWCZKQZYSZF3FNKDOMGS3AIJ4LAOMZPR6UHHTCMEAXBCIBTC",
+  "GC3XCWKLDYZNTQYKVYJUFALGIC5POZ6CSBA5O3XOFSZOIPPLX6KZDTCC",
+  "GARX53UXMGCHD72XCQBBWIIBCVHVPQZLVC42XE4F6OB2X7SHQFMTGOLD",
+  "GDFDBCXMBJ2IPE3DFTVIWX4IR4PRQCXEZVFXIJ3AR5TWGB4BH4GZBSOL",
+  "GDTW4D6SQ7Z5YPH4NWA3B2GHET5OV22TSTMJTUM4I42TAKSN27ZNJXRP",
+  "GBOBK7GQ4UEQ75KM2GVCSQGMURUQTL3SH3SZVBYVT6WHVD4MVPLETSDF",
+  "GAKY2OWSSOJ4UF2CR36FT5XYUIQCUKBTW6JMA6XGVHD3FBPDHN2LXRPC",
+  "GDNZ4JTQEMH6BAPZB3M3STLCI4C62XVUB3S4LDFK5BZLJYO6BPP6RUSD",
+  "GCN4PTGAY5AB4ZCXYJMFHPTHBEZOD4B2TBH2AGZWZENVO6D7J5U3XUTC",
+  "GB5WD7PPGN3QYIZR2R5LYCT3SOISQOCQDB7KFGCUJT3ITCB6ULIKYXLM"
+]
+
+[DOCUMENTATION]
+ORG_NAME="StellarMint"
+ORG_DBA="StellarMint"
+ORG_URL="https://v0-stellarmint.vercel.app"
+ORG_DESCRIPTION="StellarMint publishes a transparent, education-first collection of Stellar assets and the public issuer information needed to evaluate them. We build accessible market infrastructure for curious newcomers and professional operators."
+ORG_LOGO="https://v0-stellarmint.vercel.app/stellar-mint-mark.svg"
+ORG_OFFICIAL_EMAIL="hello@v0-stellarmint.vercel.app"
+ORG_SUPPORT_EMAIL="support@v0-stellarmint.vercel.app"
+ORG_TWITTER="stellarmint"
+ORG_GITHUB="stellarmint"
+
+# Asset directory entries
+[[CURRENCIES]]
+code="USA"
+issuer="GAFPCAD6N5KQSCGNXAGFKR7FKFYE72M62U27BJ2LE2VS35PO3YWE2USA"
+display_decimals=2
+description="A dollar-denominated StellarMint asset designed for transparent settlement on Stellar."
+image="https://v0-stellarmint.vercel.app/tokens/usa.png"
+
+[[CURRENCIES]]
+code="GOD"
+issuer="GCMZDGZCVJCLNDNSK3CJFC3DJMWPMOR47HYABSGUHRCVOPALZMWZSGOD"
+description="A StellarMint digital asset themed around gold-market exposure and efficient settlement."
+image="https://v0-stellarmint.vercel.app/tokens/god.png"
+
+[[CURRENCIES]]
+code="BTC"
+issuer="GCS3EOS6NWCZKQZYSZF3FNKDOMGS3AIJ4LAOMZPR6UHHTCMEAXBCIBTC"
+description="A Stellar-issued representation intended for moving bitcoin-linked value efficiently."
+image="https://v0-stellarmint.vercel.app/tokens/btc.png"
+
+[[CURRENCIES]]
+code="DTCC"
+issuer="GC3XCWKLDYZNTQYKVYJUFALGIC5POZ6CSBA5O3XOFSZOIPPLX6KZDTCC"
+description="An experimental market-infrastructure asset for professional Stellar workflows."
+image="https://v0-stellarmint.vercel.app/tokens/dtcc.png"
+
+[[CURRENCIES]]
+code="GOLD"
+issuer="GARX53UXMGCHD72XCQBBWIIBCVHVPQZLVC42XE4F6OB2X7SHQFMTGOLD"
+description="A StellarMint commodity-themed asset for exploring diversified digital portfolios."
+image="https://v0-stellarmint.vercel.app/tokens/gold.png?v=2"
+
+[[CURRENCIES]]
+code="SOL"
+issuer="GDFDBCXMBJ2IPE3DFTVIWX4IR4PRQCXEZVFXIJ3AR5TWGB4BH4GZBSOL"
+description="A Stellar-based bridge asset for exploring Solana-linked liquidity."
+image="https://v0-stellarmint.vercel.app/tokens/sol.png"
+
+[[CURRENCIES]]
+code="XRP"
+issuer="GDTW4D6SQ7Z5YPH4NWA3B2GHET5OV22TSTMJTUM4I42TAKSN27ZNJXRP"
+description="A Stellar-based representation of XRP for interoperable settlement experiments."
+image="https://v0-stellarmint.vercel.app/tokens/xrp.png"
+
+[[CURRENCIES]]
+code="SDF"
+issuer="GBOBK7GQ4UEQ75KM2GVCSQGMURUQTL3SH3SZVBYVT6WHVD4MVPLETSDF"
+description="An ecosystem-themed StellarMint asset for exploring network markets."
+image="https://v0-stellarmint.vercel.app/tokens/sdf.png"
+
+[[CURRENCIES]]
+code="RPC"
+issuer="GAKY2OWSSOJ4UF2CR36FT5XYUIQCUKBTW6JMA6XGVHD3FBPDHN2LXRPC"
+description="A utility-oriented StellarMint asset for resilient, programmable network access."
+image="https://v0-stellarmint.vercel.app/tokens/rpc.png"
+
+[[CURRENCIES]]
+code="USD"
+issuer="GDNZ4JTQEMH6BAPZB3M3STLCI4C62XVUB3S4LDFK5BZLJYO6BPP6RUSD"
+display_decimals=2
+description="A dollar-denominated StellarMint instrument built for fast Stellar transfers."
+image="https://v0-stellarmint.vercel.app/tokens/usd.png"
+
+[[CURRENCIES]]
+code="UTC"
+issuer="GCN4PTGAY5AB4ZCXYJMFHPTHBEZOD4B2TBH2AGZWZENVO6D7J5U3XUTC"
+description="A time-themed utility asset for exploring programmable settlement on Stellar."
+image="https://v0-stellarmint.vercel.app/tokens/utc.png"
+
+[[CURRENCIES]]
+code="XLM"
+issuer="GB5WD7PPGN3QYIZR2R5LYCT3SOISQOCQDB7KFGCUJT3ITCB6ULIKYXLM"
+description="A StellarMint network asset for exploring Stellar-native liquidity."
+image="https://v0-stellarmint.vercel.app/tokens/xlm.png"
